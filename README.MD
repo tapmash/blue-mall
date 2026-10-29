@@ -4,7 +4,33 @@ A modular Python machine learning project that segments mall customers into dist
 
 ---
 
-## 📌 Business Problem
+## 📌 Project Charter:
+
+**Blue-Mall Customer Segmentation and Leasing Optimisation**
+
+**1. Project Metadata**
+- **Project Title:** Tenant Portfolio Planning and Behavioural Segmentation Analysis
+- **Sponsor:** Blue-Mall executive management (on behalf of all stakeholders)
+- **Execution:** TMK Data Analytics Consulting
+- **Methodology:** Unsupervised machine learning (K-Means clustering) utilising historical customer demographics and behavioural metrics
+- **Project Duration:** 6 weeks
+
+**2. Project Objectives**
+
+Despite reliable visitor numbers, Blue-Mall underperforms in commercial yield, revenue per square metre, and in building lasting relationships with high-value tenants. We intend to build an empirical customer segmentation framework that aligns physical leasing strategies and marketing campaigns with the actual purchasing power and spending behaviour of mall visitors.
+
+**Core Objectives**
+1. Segment the visitor population into distinct clusters using Annual Income and Spending Scores via K-Means cluster analysis.
+2. Provide asset managers with actionable guidance on which retail, dining, and service categories to recruit or relocate to capture high-value customer clusters.
+3. Transition general promotional campaigns toward targeted micro-segmentation strategies designed to activate high-income, low-spending visitors and safeguard loyal mid-tier spenders.
+
+**3. Deliverables**
+- Normalisation and validation of customer demographic records
+- Determination of the optimal number of clusters using K-Means analysis
+- A summarised breakdown of demographic means, income thresholds, and behavioural indexes for each identified segment
+- An executive briefing mapping each cluster to specific leasing, zoning, and marketing interventions
+
+## Business Problem
 Understanding customer behavior is critical for retail businesses to optimize marketing strategies and target specific customer demographics. The goal of this project is to segment mall customers into distinct groups based on their purchasing habits and income levels, allowing management to tailor loyalty programs and marketing campaigns effectively.
 
 ## 📊 Dataset Description
