@@ -50,23 +50,7 @@ How can we convert high-income visitors who currently exhibit low spending score
 
 3. Analytical Formulation
 
-To resolve this problem, as the analytics firm, we will utilise K-Means cluster analysis on customer annual income and spending behaviour. The model isolates five distinct behavioural groups within the visitor population:
-
-Middle-Market (Cluster 0, ~40.5% of visitors):
-Profile: Middle-aged (avg. ~42.7 years), moderate income (~$55.3k).
-Challenge: Represents the stable backbone of daily foot traffic, requiring steady, reliable mid-market retail and dining options.
-Luxury Shoppers (Cluster 1, ~19.5% of visitors):
-Profile: Younger demographic (avg. ~32.7 years), high income (~$86.5k).
-Challenge: The highest-value revenue drivers; failure to retain premium brands risks losing this segment to competing lifestyle centres.
-Budget-Conscious (Cluster 2, ~11.0% of visitors):
-Profile: Young adults (avg. ~25.3 years), lower income (~$25.7k).
-Challenge: High engagement and impulse-buying behaviour despite lower income, requiring fast-fashion and youth-oriented entertainment tenants.
-High-Net-Worth Conservative (Cluster 3, ~17.5% of visitors):
-Profile: Mature demographic (avg. ~41.1 years), high income (~$88.2k).
-Challenge: Significant untapped purchasing power; they visit the mall but withhold spending due to a lack of aligned high-end specialty retail, luxury home goods, or bespoke services.
-Budget-Constrained (Cluster 4, ~11.5% of visitors):
-Profile: Older demographic (avg. ~45.2 years), lower income (~$26.3k).
-Challenge: Cost-sensitive visitors requiring value retail, essential services, and accessible everyday dining options.
+To resolve this problem, as the analytics firm, we will utilise K-Means cluster analysis on customer annual income and spending behaviour. 
 
 ## 📊 Dataset Description
 The dataset (`Mall_Customers.csv`) contains customer demographic and financial attributes:
