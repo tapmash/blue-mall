@@ -4,9 +4,7 @@ A complete machine learning project that segments blue-mall customers into disti
 
 ---
 
-## 📌 **Project Charter**
-
-**Blue-Mall Customer Segmentation and Leasing Optimisation**
+## 📌 **Project Charter: Blue-Mall customer segmentation**
 
 **1. Project Metadata**
 - **Project Title:** Tenant Portfolio Planning and Behavioural Segmentation Analysis
@@ -30,7 +28,7 @@ Despite reliable visitor numbers, Blue-Mall underperforms in commercial yield, r
 - A summarised breakdown of demographic means, income thresholds, and behavioural indexes for each identified segment
 - An executive briefing mapping each cluster to specific leasing, zoning, and marketing interventions
 
-## **Problem Definition: Monetising Customer Heterogeneity at Blue-Mall**
+## 🎯 **Problem Definition: Monetising Customer Heterogeneity at Blue-Mall**
 
 **1. Background**
 
