@@ -46,7 +46,7 @@ Which visitor groups drive actual revenue?
 How do we restructure our tenant leasing mix to capture high-yield spenders?
 How can we convert high-income visitors who currently exhibit low spending scores into active retail participants?
 
-3. Analytical Formulation
+**3. Analytical Formulation**
 
 To resolve this problem, as the analytics firm, we will utilise K-Means cluster analysis on customer annual income and spending behaviour. 
 
