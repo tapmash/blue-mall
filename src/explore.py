@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset from the data folder
-df = pd.read_csv("data/Mall_Customers.csv")
+df = pd.read_csv("data/Customers.csv")
 
 # Display basic information and first few rows
 print("Dataset Shape:", df.shape)

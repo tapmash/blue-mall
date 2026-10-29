@@ -8,8 +8,8 @@ from sklearn.cluster import KMeans
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Define safe absolute paths
-data_path = os.path.join(BASE_DIR, "data", "Mall_Customers.csv")
-output_csv_path = os.path.join(BASE_DIR, "data", "Mall_Customers_Clustered.csv")
+data_path = os.path.join(BASE_DIR, "data", "Customers.csv")
+output_csv_path = os.path.join(BASE_DIR, "data", "Customers_Clustered.csv")
 output_img_path = os.path.join(BASE_DIR, "images", "customer_segments.png")
 
 # 1. Load the dataset
@@ -24,7 +24,7 @@ df['Cluster'] = kmeans.fit_predict(X)
 
 # 4. Save the clustered data
 df.to_csv(output_csv_path, index=False)
-print("Clustered data saved to data/Mall_Customers_Clustered.csv")
+print("Clustered data saved to data/Customers_Clustered.csv")
 
 # 5. Plot and save the customer segments visualization
 plt.figure(figsize=(8, 6))
@@ -37,7 +37,7 @@ sns.scatterplot(
     s=100, 
     alpha=0.8
 )
-plt.title('Mall Customer Segments (K-Means)')
+plt.title('Customer Segments (K-Means)')
 plt.xlabel('Annual Income (k$)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend(title='Cluster')
