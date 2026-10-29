@@ -4,7 +4,7 @@ A modular Python machine learning project that segments mall customers into dist
 
 ---
 
-## 📌 Project Charter:
+## 📌 **Project Charter**
 
 **Blue-Mall Customer Segmentation and Leasing Optimisation**
 
@@ -30,8 +30,43 @@ Despite reliable visitor numbers, Blue-Mall underperforms in commercial yield, r
 - A summarised breakdown of demographic means, income thresholds, and behavioural indexes for each identified segment
 - An executive briefing mapping each cluster to specific leasing, zoning, and marketing interventions
 
-## Business Problem
-Understanding customer behavior is critical for retail businesses to optimize marketing strategies and target specific customer demographics. The goal of this project is to segment mall customers into distinct groups based on their purchasing habits and income levels, allowing management to tailor loyalty programs and marketing campaigns effectively.
+## **Problem Definition: Monetising Customer Heterogeneity at Blue-Mall**
+
+**1. Background**
+
+Due to rapid advancements in technology that provide ubiquitous alternatives for convenience, modern commercial real estate management operates in an environment where generic foot-traffic metrics no longer guarantee retail profitability. At Blue-Mall, management observes wide variances in how visitors interact with the property: some demographic cohorts browse extensively with high basket sizes, while others, despite possessing substantial financial capacity, exhibit low on-site spending.
+
+Currently, leasing negotiations and marketing expenditures are driven by macro-level assumptions rather than granular customer analytics. This misalignment leads to suboptimal anchor tenant placements, empty leasing corridors, and missed opportunities to capture wallet share from affluent patrons.
+
+**2. Business Problem**
+
+Blue-Mall struggles to systematically identify and monetise distinct customer behavioural segments within its visitor base.
+
+**Stakeholder questions:**
+
+Which visitor groups drive actual revenue?
+How do we restructure our tenant leasing mix to capture high-yield spenders?
+How can we convert high-income visitors who currently exhibit low spending scores into active retail participants?
+
+3. Analytical Formulation
+
+To resolve this problem, as the analytics firm, we will utilise K-Means cluster analysis on customer annual income and spending behaviour. The model isolates five distinct behavioural groups within the visitor population:
+
+Middle-Market (Cluster 0, ~40.5% of visitors):
+Profile: Middle-aged (avg. ~42.7 years), moderate income (~$55.3k).
+Challenge: Represents the stable backbone of daily foot traffic, requiring steady, reliable mid-market retail and dining options.
+Luxury Shoppers (Cluster 1, ~19.5% of visitors):
+Profile: Younger demographic (avg. ~32.7 years), high income (~$86.5k).
+Challenge: The highest-value revenue drivers; failure to retain premium brands risks losing this segment to competing lifestyle centres.
+Budget-Conscious (Cluster 2, ~11.0% of visitors):
+Profile: Young adults (avg. ~25.3 years), lower income (~$25.7k).
+Challenge: High engagement and impulse-buying behaviour despite lower income, requiring fast-fashion and youth-oriented entertainment tenants.
+High-Net-Worth Conservative (Cluster 3, ~17.5% of visitors):
+Profile: Mature demographic (avg. ~41.1 years), high income (~$88.2k).
+Challenge: Significant untapped purchasing power; they visit the mall but withhold spending due to a lack of aligned high-end specialty retail, luxury home goods, or bespoke services.
+Budget-Constrained (Cluster 4, ~11.5% of visitors):
+Profile: Older demographic (avg. ~45.2 years), lower income (~$26.3k).
+Challenge: Cost-sensitive visitors requiring value retail, essential services, and accessible everyday dining options.
 
 ## 📊 Dataset Description
 The dataset (`Mall_Customers.csv`) contains customer demographic and financial attributes:
