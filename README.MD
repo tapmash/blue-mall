@@ -1,6 +1,6 @@
-# Mall Customer Segmentation
+# **Blue-Mall Customer Segmentation**
 
-A modular Python machine learning project that segments mall customers into distinct behavioral groups using K-Means clustering based on their annual income and spending scores.
+A complete machine learning project that segments blue-mall customers into distinct behavioural groups using K-Means clustering based on their annual income and spending scores to facilitate the generation of actionable recommendations.
 
 ---
 
