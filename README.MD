@@ -55,7 +55,7 @@ The dataset (`Customers.csv`) contains customer demographic and financial attrib
 - **CustomerID**: Unique ID assigned to the customer.
 - **Gender**: Gender of the customer.
 - **Age**: Age of the customer.
-- **Annual Income (k$)**: Annual income of the customer in thousands of dollars.
+- **Annual Income (R)**: Annual income of the customer in thousands of dollars.
 - **Spending Score (1-100)**: Score assigned by the mall based on customer behavior and purchasing nature.
 
 ---
