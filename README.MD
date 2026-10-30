@@ -51,7 +51,7 @@ How can we convert high-income visitors who currently exhibit low spending score
 To resolve this problem, as the analytics firm, we will utilise K-Means cluster analysis on customer annual income and spending behaviour. 
 
 ## 📊 Dataset Description
-The dataset (`Mall_Customers.csv`) contains customer demographic and financial attributes:
+The dataset (`Customers.csv`) contains customer demographic and financial attributes:
 - **CustomerID**: Unique ID assigned to the customer.
 - **Gender**: Gender of the customer.
 - **Age**: Age of the customer.
@@ -61,7 +61,7 @@ The dataset (`Mall_Customers.csv`) contains customer demographic and financial a
 ---
 
 ## 📁 Project Structure
-- `data/`: Contains raw and processed datasets (`Mall_Customers.csv`, `Mall_Customers_Clustered.csv`).
+- `data/`: Contains raw and processed datasets (`Customers.csv`, `Customers_Clustered.csv`).
 - `src/`: Core modular Python scripts:
   - `explore.py`: Loads, inspects, and verifies the dataset.
   - `segmentation.py`: Applies optimal K-Means clustering and generates visualization plots.
@@ -83,7 +83,18 @@ The K-Means model successfully groups customers into 5 distinct behavioral segme
 5. **Cluster 4 (Low Income, High Spending):** Shoppers who spend heavily despite having lower annual incomes.
 
 ---
+**Conclusions**
+Polarized Customer Segments: The K-Means analysis (k=5) reveals five distinct behavioral clusters. The mall’s revenue potential is concentrated in high-value luxury shoppers (Cluster 1, ~19.5%) and high-income non-spenders (Cluster 3, ~17.5%), supported by high-spending youth (Cluster 2, ~11.0%) and a stable mid-market core (Clusters 0 & 4, ~52.0%).
 
+Primary Revenue Opportunity: Cluster 3 represents Blue-Mall’s single largest uncaptured opportunity—visitors with significant purchasing power (~$88.2k income) who currently withhold spending (~17.1 score) due to a mismatch with existing tenant offerings.
+
+**Recommendations**
+Recruit luxury flagship brands, fine dining, and premium specialty retailers to convert Cluster 3, while zoning high-end contemporary fashion and beauty for Cluster 1.
+
+Direct high-income foot traffic past curated experiential spaces (e.g., VIP lounges, artisanal food halls, bespoke services) to reduce psychological barriers to spending.
+
+Replace broad advertising with geofenced digital promotions and loyalty app perks tailored specifically to high-income and high-spending segments.
+---
 ## ⚙️ How to Run Locally
 
 1. **Clone the repository:**
