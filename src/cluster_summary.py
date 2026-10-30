@@ -9,7 +9,7 @@ file_path = os.path.join(BASE_DIR, "data", "Customers_Clustered.csv")
 df = pd.read_csv(file_path)
 
 # Group by the cluster and calculate average values
-summary = df.groupby('Cluster')[['Age', 'Annual Income (k$)', 'Spending Score (1-100)']].mean()
+summary = df.groupby('Cluster')[['Age', 'Annual Income (R)', 'Spending Score (1-100)']].mean()
 summary['Count'] = df['Cluster'].value_counts()
 
 print("Cluster Summary (Averages per Group):")

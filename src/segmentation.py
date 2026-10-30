@@ -16,7 +16,7 @@ output_img_path = os.path.join(BASE_DIR, "images", "customer_segments.png")
 df = pd.read_csv(data_path)
 
 # 2. Select features for segmentation (Annual Income and Spending Score)
-X = df[["Annual Income (k$)", "Spending Score (1-100)"]]
+X = df[["Annual Income (R)", "Spending Score (1-100)"]]
 
 # 3. Apply K-Means Clustering with 5 clusters (standard for this dataset)
 kmeans = KMeans(n_clusters=5, init='k-means++', random_state=42)
@@ -29,7 +29,7 @@ print("Clustered data saved to data/Customers_Clustered.csv")
 # 5. Plot and save the customer segments visualization
 plt.figure(figsize=(8, 6))
 sns.scatterplot(
-    x='Annual Income (k$)', 
+    x='Annual Income (R)', 
     y='Spending Score (1-100)', 
     hue='Cluster', 
     data=df, 
@@ -38,7 +38,7 @@ sns.scatterplot(
     alpha=0.8
 )
 plt.title('Customer Segments (K-Means)')
-plt.xlabel('Annual Income (k$)')
+plt.xlabel('Annual Income (R)')
 plt.ylabel('Spending Score (1-100)')
 plt.legend(title='Cluster')
 plt.grid(True, linestyle='--', alpha=0.5)
